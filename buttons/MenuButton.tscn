@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://GUIFont.tres" type="DynamicFont" id=1]
+
+[node name="Button" type="Button"]
+margin_right = 1680.0
+margin_bottom = 20.0
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+custom_fonts/font = ExtResource( 1 )
+text = "New"
+__meta__ = {
+"_edit_use_anchors_": false
+}
